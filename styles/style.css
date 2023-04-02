@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+body{
+    font-family: 'Press Start 2P', sans-serif;
+    color: #eee;
+    background-color: #222;
+}
+
+/* button */
+button{
+    width:150px;
+    height:40px;
+    margin-top:30px;
+    margin-left: 20px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight:bold;
+    font-size: large;  
+}
+
+.title{
+    font-size: 70px;
+    width:100%;
+    text-align: center;
+}
+
+hr{
+    margin-top:10%;
+    height: 5px;
+    width: 100%;
+    background-color: #eee;
+}
+
+.container{
+    color: #222;
+    font-size: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.random-number{
+    background-color: #eee;
+    width: 170px;
+    padding: 10px;
+    margin-top: -60px;
+    text-align: center;
+}
+
+.check-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+textarea{
+    width: 250px;
+    height: 100px;
+}
+
+.guess-number{
+    font-size: 70px;
+    text-align: center;
+    color:#eee;
+    background-color: #222;
+    border: 8px solid #eee;
+    border-radius: 5%;
+}
+
+.result{
+    color: #eee;
+    font-size: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
