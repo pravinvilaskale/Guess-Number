@@ -61,8 +61,10 @@ textarea{
 
 .guess-number{
     font-size: 70px;
+    font-family: 'Press Start 2P', sans-serif;
     text-align: center;
     color:#eee;
+    padding: 10px;
     background-color: #222;
     border: 8px solid #eee;
     border-radius: 5%;
@@ -75,4 +77,43 @@ textarea{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+            font-size: 30px;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 100px;
+        }
+        button {
+            width: 100px;
+            font-size: small;
+        }
+        .guess-number {
+            font-size: 30px;
+            width: 120px;
+            height:40px;
+            font-family: 'Press Start 2P', sans-serif;
+            text-align: center;
+            color: #eee;
+            padding: 5px;
+            background-color: #222;
+            border: 5px solid #eee;
+            border-radius: 5%;
+        }
+        .check-section{
+            margin: 20px;
+            padding-top: 30px;
+        }
+        .result{
+            font-size: 20px;
+        }
 }
