@@ -117,3 +117,44 @@ textarea{
             font-size: 20px;
         }
 }
+
+@media screen and (max-width: 350px) {
+    .title {
+            font-size: 15px;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 100px;
+        }
+        .head{
+            flex-wrap: wrap;
+            font-size: 8px;
+        }
+        .again{
+            margin:10px;
+        }
+        button {
+            width: 100px;
+            font-size: small;
+        }
+        .guess-number {
+            font-size: 30px;
+            width: 80px;
+            height:20px;
+            font-family: 'Press Start 2P', sans-serif;
+            text-align: center;
+            color: #eee;
+            padding: 10px;
+            background-color: #222;
+            border: 5px solid #eee;
+            border-radius: 5%;
+        }
+        .check-section{
+            margin: 20px;
+            padding-top: 30px;
+        }
+        .result{
+            font-size: 8px;
+        }
+
+}
